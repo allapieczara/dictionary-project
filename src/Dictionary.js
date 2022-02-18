@@ -22,7 +22,7 @@ export default function Dictionary() {
   //DOCUMENTATION: https://dictionaryapi.dev/
   //https://api.dictionaryapi.dev/api/v2/entries/en/teal
 
-  https: return (
+  return (
     <div className="Dictionary">
       <form onSubmit={search}>
         <input
