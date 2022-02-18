@@ -1,12 +1,12 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Dictionary.css";
 import axios from "axios";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
 
-  function handleResponse(response){
-      console.log(response);
+  function handleResponse(response) {
+    console.log(response);
   }
 
   function search(event) {
@@ -17,13 +17,12 @@ export default function Dictionary() {
     axios.get(apiUrl).then(handleResponse);
   }
   function handleKeywordChange(event) {
-    console.log(event.target.value);
     setKeyword(event.target.value);
   }
-
+  //DOCUMENTATION: https://dictionaryapi.dev/
   //https://api.dictionaryapi.dev/api/v2/entries/en/teal
 
-  return (
+  https: return (
     <div className="Dictionary">
       <form onSubmit={search}>
         <input
