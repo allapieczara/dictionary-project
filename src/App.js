@@ -7,9 +7,19 @@ export default function App() {
       <div className="container">
         <header className="App-header">Space Dictionary</header>
         <main>
-          <Dictionary defaultKeyword="universe"/>
+          <Dictionary defaultKeyword="universe" />
         </main>
-        <footer className="App-footer">Coded by Alla Pieczara</footer>
+        <footer className="App-footer">
+          Coded by Alla Pieczara
+          <br />
+          <a
+            href="https://www.freepik.com/vectors/background"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Background vector created by tartila - www.freepik.com
+          </a>
+        </footer>
       </div>
     </div>
   );
