@@ -4,7 +4,10 @@
 }
 
 .App-header {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     margin: 20px 20px;
+    color: rgb(215, 194, 240);
+    font-weight: bold;
+    font-family: 'Shizuru', cursive;
 }
