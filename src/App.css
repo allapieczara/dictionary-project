@@ -1,6 +1,7 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  
 }
 
 .App-header {
@@ -10,4 +11,9 @@
     color: rgb(215, 194, 240);
     font-weight: bold;
     font-family: 'Shizuru', cursive;
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
 }
