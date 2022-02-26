@@ -10,7 +10,14 @@ export default function App() {
           <Dictionary defaultKeyword="universe" />
         </main>
         <footer className="App-footer">
-          Coded by Alla Pieczara
+          Open source code by
+          <a
+            href="https://github.com/allapieczara/dictionary-project"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Alla Pieczara
+          </a>
           <br />
           <a
             href="https://www.freepik.com/vectors/background"
