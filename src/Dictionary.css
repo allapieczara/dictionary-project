@@ -1,11 +1,10 @@
 .Dictionary section {
-
   background: rgb(236, 207, 245);
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
-  
+  font-family: "Roboto", sans-serif;
 }
 
 .Dictionary input {
