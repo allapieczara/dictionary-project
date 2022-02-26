@@ -16,7 +16,7 @@ export default function (props) {
                   target="_blank"
                   rel="noreferrer"
                 ></a>
-                <img src={photo.src.landscape} className="img-fluid"></img>
+                <img src={photo.src.landscape} className="img-fluid" alt={photo.alt}></img>
               </div>
             );
           })}
