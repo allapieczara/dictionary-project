@@ -16,6 +16,7 @@ export default function App() {
             rel="noreferrer"
             target="_blank"
           >
+            {" "}
             Alla Pieczara
           </a>
           <br />
