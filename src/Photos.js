@@ -8,7 +8,6 @@ export default function Photos(props) {
         <div className="row">
           <div></div>
           {props.photos.map(function (photo, index) {
-            console.log(photo);
             return (
               <div className="col-4" key={index}>
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
