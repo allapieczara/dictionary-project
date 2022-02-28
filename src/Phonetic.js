@@ -4,7 +4,7 @@ import "./Phonetic.css";
 export default function Phonetic(props) {
   console.log(props.phonetic);
 
-  if (!props.phonetic.audio == "") {
+  if (!props.phonetic.audio === "") {
     return (
       <div className="Phonetic">
         <a href={props.phonetic.audio} rel="noreferrer" target="_blank">
